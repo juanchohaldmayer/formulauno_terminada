@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipos - Fórmula 1</title>
+    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<!-- FAVICON -->
+<link rel="apple-touch-icon" sizes="57x57" href="img/04f85e5edb16d05de46b321bf7b97d80.ico/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/04f85e5edb16d05de46b321bf7b97d80.ico/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/04f85e5edb16d05de46b321bf7b97d80.ico/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/04f85e5edb16d05de46b321bf7b97d80.ico/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/04f85e5edb16d05de46b321bf7b97d80.ico/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/04f85e5edb16d05de46b321bf7b97d80.ico/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/04f85e5edb16d05de46b321bf7b97d80.ico/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/04f85e5edb16d05de46b321bf7b97d80.ico/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/04f85e5edb16d05de46b321bf7b97d80.ico/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="img/04f85e5edb16d05de46b321bf7b97d80.ico/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/04f85e5edb16d05de46b321bf7b97d80.ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/04f85e5edb16d05de46b321bf7b97d80.ico/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/04f85e5edb16d05de46b321bf7b97d80.ico/favicon-16x16.png">
+<link rel="manifest" href="img/04f85e5edb16d05de46b321bf7b97d80.ico/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="img/04f85e5edb16d05de46b321bf7b97d80.ico/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+    <header>
+	  <nav class="navbar">
+      <div class="logo"><img src="img/logo.png" alt="Logo header"></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="guia_f1.html">Guía</a></li>
+        <li><a href="competidores.html">Competidores</a></li>
+        <li><a href="equipos.html">Equipos</a></li>
+        <li><a href="tabla_posiciones.html">Posiciones</a></li>
+        <li><a href="autos_f1.html">Autos</a></li>
+        <li><a href="neumaticos.html">Neumáticos</a></li>
+        <li><a href="formatos_carrera.html">Formatos</a></li>
+      </ul>
+      <div class="desplegable" onclick="toggleMenu()">☰</div>
+    </nav>
+    </header>
+	
+    <div class="contenedor-boton">
+      <a href="competidores.html" class="ver-equipos-boton">Ver Pilotos</a>
+    </div>
+
+    <section class="equipos-section">
+      <div class="equipos-contenedor">
+          <div class="tarjeta-equipos">
+              <img src="img/equipos/logos-redbull-f1-2021.png" alt="Red Bull Racing">
+              <div class="info-equipos">
+                  <h3>Red Bull</h3>
+                  <div class="detalles-equipos">
+                      <img src="img/competidores/banderas/united_kingdomgreat_britain.png" alt="Bandera Red Bull" class="bandera-equipos">
+                      <span class="puntos-equipos">518pts</span> <!-- Puntos -->
+                  </div>
+              </div>
+          </div>
+          <div class="tarjeta-equipos">
+              <img src="img/equipos/logo-mercedes-f1-2021.png" alt="Mercedes">
+              <div class="info-equipos">
+                  <h3>Mercedes</h3>
+                  <div class="detalles-equipos">
+                      <img src="img/competidores/banderas/united_kingdomgreat_britain.png" alt="Bandera Mercedes" class="bandera-equipos">
+                      <span class="puntos-equipos">369pts</span>
+                  </div>
+              </div>
+          </div>
+          <div class="tarjeta-equipos">
+              <img src="img/equipos/logo-ferrari-f1-2021.png" alt="Ferrari">
+              <div class="info-equipos">
+                  <h3>Ferrari</h3>
+                  <div class="detalles-equipos">
+                      <img src="img/competidores/banderas/italy.png" alt="Bandera Ferrari" class="bandera-equipos">
+                      <span class="puntos-equipos">547pts</span>
+                  </div>
+              </div>
+          </div>
+          <div class="tarjeta-equipos">
+              <img src="img/equipos/logo-mclaren-f1-2021.png" alt="McLaren">
+              <div class="info-equipos">
+                  <h3>McLaren</h3>
+                  <div class="detalles-equipos">
+                      <img src="img/competidores/banderas/united_kingdomgreat_britain.png" alt="Bandera McLaren" class="bandera-equipos">
+                      <span class="puntos-equipos">581pts</span>
+                  </div>
+              </div>
+          </div>
+          <div class="tarjeta-equipos">
+              <img src="img/equipos/logo-aston-martin-f1-2021.png" alt="Aston Martin">
+              <div class="info-equipos">
+                  <h3>Aston Martin</h3>
+                  <div class="detalles-equipos">
+                      <img src="img/competidores/banderas/united_kingdomgreat_britain.png" alt="Bandera Aston Martin" class="bandera-equipos">
+                      <span class="puntos-equipos">86pts</span>
+                  </div>
+              </div>
+          </div>
+          <div class="tarjeta-equipos">
+              <img src="img/equipos/logo-alpine-f1-2021.png" alt="Alpine">
+              <div class="info-equipos">
+                  <h3>Alpine</h3>
+                  <div class="detalles-equipos">
+                      <img src="img/competidores/banderas/france.png" alt="Bandera Alpine" class="bandera-equipos">
+                      <span class="puntos-equipos">16pts</span>
+                  </div>
+              </div>
+          </div>
+          <div class="tarjeta-equipos">
+              <img src="img/equipos/logo-williams-f1-2021.png" alt="Williams">
+              <div class="info-equipos">
+                  <h3>Williams</h3>
+                  <div class="detalles-equipos">
+                      <img src="img/competidores/banderas/united_kingdomgreat_britain.png" alt="Bandera Williams" class="bandera-equipos">
+                      <span class="puntos-equipos">17pts</span>
+                  </div>
+              </div>
+          </div>
+          <div class="tarjeta-equipos">
+              <img src="img/equipos/visa-rb-soymotor.2024.png" alt="RB">
+              <div class="info-equipos">
+                  <h3>RB</h3>
+                  <div class="detalles-equipos">
+                      <img src="img/competidores/banderas/italy.png" alt="Bandera RB" class="bandera-equipos">
+                      <span class="puntos-equipos">36pts</span>
+                  </div>
+              </div>
+          </div>
+          <div class="tarjeta-equipos">
+              <img src="img/equipos/stake-logo-2024.jpeg" alt="Stake">
+              <div class="info-equipos">
+                  <h3>Stake</h3>
+                  <div class="detalles-equipos">
+                      <img src="img/competidores/banderas/switzerland.png" alt="Bandera Stake" class="bandera-equipos">
+                      <span class="puntos-equipos">0pts</span>
+                  </div>
+              </div>
+          </div>
+          <div class="tarjeta-equipos">
+              <img src="img/equipos/logo-haas-f1-2021.png" alt="Haas">
+              <div class="info-equipos">
+                  <h3>Haas</h3>
+                  <div class="detalles-equipos">
+                      <img src="img/competidores/banderas/united_states_of_americausa.png" alt="Bandera Haas" class="bandera-equipos">
+                      <span class="puntos-equipos">46pts</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+	<script src="script.js"></script>
+	
+<footer>
+  <div class="footer-contenido">
+    
+    
+    <div class="footer-contacto">
+      <h3>Contacto</h3>
+      <p><i class="fas fa-user"></i> Juan Cruz Haldmayer Prieto</p>
+      <p><i class="fas fa-envelope"></i> <a href="mailto:juanchohaldmayer@gmail.com">juanchohaldmayer@gmail.com</a></p>
+    </div>
+    
+    
+    <div class="footer-contacto">
+      <h3>Enlaces del Proyecto</h3>
+      <p><a href="index.html">Inicio</a></p>
+      <p><a href="guia_f1.html">Guía F1</a></p>
+      <p><a href="competidores.html">Competidores</a></p>
+      <p><a href="equipos.html">Equipos</a></p>
+      <p><a href="tabla_posiciones.html">Posiciones</a></p>
+      <p><a href="autos_f1.html">Autos F1</a></p>
+      <p><a href="neumaticos.html">Neumáticos</a></p>
+      <p><a href="formatos_carrera.html">Formatos</a></p>
+    </div>
+    
+    
+    <div class="footer-contacto footer-info">
+      <h3>Sobre la Página</h3>
+      <p>Esta página fue diseñada para presentar en la Feria de Ciencias, mostrando toda la información relevante de la Fórmula 1.</p>
+    </div>
+  
+  </div>
+
+</footer>
+
+</body>
+</html>
